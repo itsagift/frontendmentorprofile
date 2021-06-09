@@ -58,14 +58,14 @@ body{
 }
 .bubbles{
     display: block;
-    height:150px;
+    height:125px;
     background-image:url(images/bg-pattern-card.svg);
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 }
 .icon{
     position:absolute;
-    margin-top: 100px;
+    margin-top: 75px;
     align-self: center;
     border-radius: 100%;
     border: 5px solid #fff;
@@ -76,7 +76,7 @@ body{
         padding: 0;
         width:350px;
         
-        margin: 130px auto 0;
+        margin: 150px auto 0;
         border-radius: 20px;
         
     }
@@ -97,7 +97,7 @@ body{
     }
     .card {
         padding:0% 15%;
-        margin-top: 130px;
+        margin-top: 150px;
     }
     .card-content{
         background-color:#fff;
