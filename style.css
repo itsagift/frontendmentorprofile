@@ -76,7 +76,7 @@ body{
         padding: 0;
         width:350px;
         
-        margin: 125px auto 0;
+        margin: 130px auto 0;
         border-radius: 20px;
         
     }
@@ -97,7 +97,7 @@ body{
     }
     .card {
         padding:0% 15%;
-        margin-top: 125px;
+        margin-top: 130px;
     }
     .card-content{
         background-color:#fff;
