@@ -5,13 +5,22 @@
 }
 body{
     font-family: 'Kumbh Sans';
+    width:100vw;
+    min-height: 100vh;
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
-    background-size: contain, contain;
+    background-size: 60%, 60%;
     background-repeat: no-repeat, no-repeat;
-    background-position: 600px 10px, 0px 10px;
+    background-position: 50vw 50vh, -10vw -50vh;
+    overflow: hidden;
 }
-.card {
-
+@media screen and (min-width:1024px) {
+    .card {
+        background-color:#fff;
+        padding: 0;
+        width:400px;
+        margin: 25% auto;
+    }
+    
 }
